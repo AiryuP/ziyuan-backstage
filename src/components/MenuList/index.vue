@@ -15,10 +15,10 @@
         <el-icon style="color: #fff"><Edit /></el-icon>
         <span>资源管理</span>
       </template>
-      <el-menu-item index="2-1" @click="onMenuItemClick('/',  $event)">网站源码</el-menu-item>
+      <el-menu-item index="2-1" @click="onMenuItemClick('/code',  $event)">网站源码</el-menu-item>
       <el-menu-item index="2-2" @click="onMenuItemClick('/',  $event)">软件工具</el-menu-item>
       <el-menu-item index="2-3" @click="onMenuItemClick('/',  $event)">高清壁纸</el-menu-item>
-      <el-menu-item index="2-3" @click="onMenuItemClick('/',  $event)">综合资源</el-menu-item>
+      <el-menu-item index="2-4" @click="onMenuItemClick('/',  $event)">综合资源</el-menu-item>
     </el-sub-menu>
 
     
@@ -28,10 +28,10 @@
         <el-icon style="color: #fff"><MagicStick /></el-icon>
         <span>广告管理</span>
       </template>
-      <el-menu-item index="2-1" @click="onMenuItemClick('/',  $event)">网站源码</el-menu-item>
-      <el-menu-item index="2-2" @click="onMenuItemClick('/',  $event)">软件工具</el-menu-item>
-      <el-menu-item index="2-3" @click="onMenuItemClick('/',  $event)">高清壁纸</el-menu-item>
-      <el-menu-item index="2-3" @click="onMenuItemClick('/',  $event)">综合资源</el-menu-item>
+      <el-menu-item index="3-1" @click="onMenuItemClick('/',  $event)">网站源码</el-menu-item>
+      <el-menu-item index="3-2" @click="onMenuItemClick('/',  $event)">软件工具</el-menu-item>
+      <el-menu-item index="3-3" @click="onMenuItemClick('/',  $event)">高清壁纸</el-menu-item>
+      <el-menu-item index="3-4" @click="onMenuItemClick('/',  $event)">综合资源</el-menu-item>
     </el-sub-menu>
  
     

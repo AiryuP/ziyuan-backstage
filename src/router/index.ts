@@ -14,6 +14,11 @@ const router = createRouter({
           name: 'index',
           component: () => import('../views/panel/index.vue')
         },
+        {
+          path: '/code',
+          name: 'code',
+          component: () => import('../views/code/index.vue')
+        },
       ],
       redirect: '/index'
     },
