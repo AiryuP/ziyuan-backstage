@@ -12,6 +12,7 @@ import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import './assets/css/reset.css'
 import './assets/css/border.css'
 import './assets/css/main.css'
+import './assets/css/diyElement.css'
 
 const app = createApp(App)
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {

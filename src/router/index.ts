@@ -19,6 +19,11 @@ const router = createRouter({
           name: 'code',
           component: () => import('../views/code/index.vue')
         },
+        {
+          path: '/add',
+          name: 'add',
+          component: () => import('../views/addTiny/index.vue')
+        },
       ],
       redirect: '/index'
     },

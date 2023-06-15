@@ -13,7 +13,7 @@
   
       <el-container>
         <el-aside width="220px"><MenuList></MenuList></el-aside>
-        <el-main>
+        <el-main class="mian">
           <router-view />
         </el-main>
       </el-container>
@@ -84,6 +84,9 @@
         }
       }
     }
+  }
+  .mian{
+    height: calc(100vh - 90px);
   }
   :deep(.el-main) {
     --el-main-padding: 0px;
